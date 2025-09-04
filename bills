@@ -1,0 +1,15 @@
+#electricity bill
+present=int(input("enter the present units:"))
+previous=int(input("enter the previous units:"))
+bill=(present-previous)*2
+print("electricity bill is:",bill)
+
+# pens and books
+pens=int(input("enter the number of pens:"))
+books=int(input("enter the number of books:"))
+total_price=(pens*20+books*40)
+print("total price is:",total_price)
+discount_price=(20/100)*total_price
+print("discount applied is:",discount_price)
+final_price=(total_price-discount_price)
+print("final price is:",final_price)

@@ -1,0 +1,113 @@
+#APPEND
+list=[10,20,30,40]
+for i in range(1,2):
+    items=input("enter the items")
+    list.append(items)
+print("list:",list) 
+
+#INSERT
+#      1  2  3  4  5
+lst=[10,20,30,40,50]
+print("list is:",lst)
+lst.insert(2,22)
+print("list is:",lst)
+
+lst.insert(-2,99)
+print("list is :",lst)
+
+lst.insert(9,88)
+print("list is :",lst)
+
+#EXTEND
+a=[1,2,3]
+b=[4,5,6]
+print("list a:",a)
+print("list b:",b)
+c=a+b
+print("list c:",c)
+
+#amother method we have 
+a=[1,2,3]
+b=[4,5,6]
+a.extend(b)     #a=a+b
+print("result is:",a)
+
+
+#list COPY
+a=[1,2,3]
+print("list a:",a)
+b=a  #called reference copy
+print("list is b:",b)
+a[1]=99
+print("after modification")           # here we can observe the change in both a and b 
+print("list a is:",a)
+print("list is b:",b)
+
+#another one
+c=[1,2,3]
+print("list c is :",c)
+d=c.copy()
+print("list d:",c)
+c[1]=99
+print("after modification")          # here we can observe only change in the one position not in both c and d 
+print("list c is :",c)
+print("list d is:",d)
+
+
+#l.POP(index=-1)->value
+a=[10,20,30,40,50,60]
+print("list a:",a)
+item=a.pop(2)                       # item=a.pop() in the brackets we can mention what to remove like the position of the item
+print("delted item is:",item)
+print("list a is:",a)
+
+
+# REMOVE
+a=[10,20,30,10,40,50]
+print("list a is :",a)             # we can observe only the first occurance is getting removed like (10),20,30,10 only the 1st one is removed 
+a.remove(10)
+print("list a is:",a)
+
+
+#for suppose we want to remove both??
+a=[10,20,10,30,40]
+print("list a is:",a)
+sno= int(input("enter the number:"))       # here we can observe all the occuranceses are removed 
+for i in a:
+    if i==sno:
+        a.remove(i)
+print("list a is:",a)
+
+#CLEAR
+a=[10,20,30,10,50]
+print("list a is:",a)
+a.clear()
+print("list a is:",a)
+
+#INDEX (item[start[,end]])
+a=[10,20,30,10,50,60]
+pos=a.index(10)
+print("found@:",pos)
+
+pos=a.index(10,2)
+print("found@:",pos)
+
+pos=a.index(10,2,6)
+print("found@:",pos)
+
+#COUNT
+a=[10,20,30,10,50]
+print("list is a:",a)
+no=a.count(10)                         # checking the lst how many times the number is there in the collection 
+print("found for:",no,"times")
+
+
+no=a.count(120)                        # here in this case we can observe 120 is found 0 times it will not give any error it will extract output as "0"
+print("found for:",no,"times")
+
+
+#REVERSE
+a=[10,20,30,40,50]
+print("list a is:",a)
+a.reverse()
+print("list a is:",a)

@@ -1,0 +1,85 @@
+n=int(input("enter the number:"))
+match n:
+    case 1:
+       print("one")
+    case 2:
+       print("two")
+    case 3:
+       print("three")
+    case _:
+       print("invalid")
+
+
+a=int(input("enter a number:"))
+b=int(input("enter b number:"))
+print("1. a+b ")   
+print("2. a-b ")
+print("3. a*b ")
+print("4. exit ")
+choice=int(input("enter your choice:"))
+match choice:
+        
+        case 1:
+            print("result is :",a+b)
+        case 2:
+            print("result is:",a-b)
+        case 3:
+            print("result is :",a*b) 
+        case 4:
+            print("exit")
+        case _:
+            print("invalid")
+print("for service numbers:")          
+print("1.100")
+print("2.108")
+print("3.104")
+print("4.101")
+choice=int(input("enter the choice:"))
+match choice:
+    case 1:
+         print("police")
+    case 2:
+        print("EMRI")
+    case 3:
+        print("Medical")
+    case 4:
+        print("fire")
+    case _:
+        print("invalid")
+
+
+
+
+alp=input("enter the alp:")
+match alp:
+    case alp:
+         if alp in ("a","e","i","o","u"):
+             print("vowel")
+         else: 
+             print("not an vowel")
+            
+    
+
+a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+print("1.for addition:")
+print("2.for subtraction:")
+print("3.for multiplication:")
+print("4.exit")
+choice=int(input("enter the choice:"))
+match choice:
+      case 1: 
+        if a+b:
+         print("addition:",a+b)
+      case 2:
+        if a-b:
+         print("subtraction:",a-b)
+      case 3: 
+        if a*b:
+         print("multiplication:",a*b)
+      case 4 :
+         print("exit")
+
+
+
+

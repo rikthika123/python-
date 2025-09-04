@@ -1,0 +1,13 @@
+#what is tuple 
+# its is ()
+a=()
+print("data is:",a)
+
+b=[10,12.5,"teju","abhi",25]
+print(tuple(b))
+
+c={10,20,30,40}
+print(tuple(c))
+
+str="welcome"
+print(tuple(str))

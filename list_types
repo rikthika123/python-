@@ -1,0 +1,27 @@
+a=[]
+print("data is :",a)
+
+b=[10,12.5,"Teju",None,"Abhi"]
+print("data is:",b)
+
+c=list()
+print("data is:",c)
+
+t=(10,20,30,50,60,)
+print("data is:",t)
+d=list(t)
+print("result is:",d)
+
+st="welcome"
+print("string is:",st)
+f=list(st)
+print("result is:",f)
+
+a={10,20,40,50}
+print("set:",a)
+s=list(a)
+print("result is:",s)
+
+x=[1,2,3,45,6]
+print("list:",x)
+

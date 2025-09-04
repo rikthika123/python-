@@ -1,0 +1,93 @@
+#for loop
+
+
+for i in range (0,10):
+    print(i)
+
+
+
+for i in range (0,10,2):     #even 
+    print(i)
+
+
+for i in range (0,10,3):
+    print(i)                 # odd
+
+
+
+for i in range(30,60,3):     #odd range 
+    print(i)
+
+
+
+
+for i in range(0,5):         #*
+    print("*",end=" ")
+
+
+
+for i in range(0,10,2):       # square 
+    print(i,"square is ",i*i)
+
+for i in range(0,10):
+    print(2,"*",i,"=",2*i)      # tables
+
+
+for o in range(1,3):           
+    for i in range(1,6):       # NESTED LOOPS 
+        print("abhi")
+    print()
+
+
+
+for o in range(1,3):
+    for i in range(1,6):        # nested loop 
+        print("*",end='')
+    print()
+
+
+
+
+for r in range (1,5):         # *
+    for c in range(1,r+1):    # **
+        print("*",end='')     #***
+    print()                   #****
+                  
+
+
+for o in range(1,6):
+    for c in range (1,5):     # 1111
+        print(o,end='')       #2222
+    print()                   #3333
+                              #4444
+                              #5555
+
+
+for o in range(1,4):          # 1234
+    for i in range(1,5):      # 1234
+        print(i,end='')       #1234
+    print()                   #1234
+
+
+
+for o in range(1,6):           # 1
+    for i in range(1,o+1):     #12
+        print(i,end='')        #123
+    print()                    #1234
+                               #12345
+
+
+for o in range(6,1,-1):       #12345
+    for i in range(1,o+1):    # 1234
+        print(i,end='')       #123
+    print()                   #12
+            
+
+for i in range(5,0,-1):      # 5
+    print(i)                 # 4
+                             # 3
+                             # 2
+                             # 1
+
+
+

@@ -1,0 +1,32 @@
+lst=[10, 20, 12.5, "Teju", 123, "abhi"]
+
+#INDEXING
+print("first object:",lst[0])
+print("second object:",lst[1])
+print("list object:",lst[-1]) #[-1] for last object
+
+#SLICING [start:stop:step]
+print("first 3 objects:",lst[0:3:1])
+print("last 3 objects:",lst[-1:-4:-1])
+
+#UNPACKING
+a=lst[0]
+b=lst[1]
+c=lst[2]
+print(a,b,c,sep='-')
+
+# UNPACKING USING SLICING
+lst=[10,20,30,40,50,60]
+m1,m2,m3=lst[2:5:1]
+print(m1,m2,m3,sep='-')
+
+
+#WHILE
+lst=[10,20,30,"abhi",40,"teju"]
+print("list is:",lst)
+
+index=0
+while index<len(lst):
+    print(lst[index])
+    index=index+1
+print("list is:",index)

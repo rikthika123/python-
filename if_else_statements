@@ -1,0 +1,8 @@
+gender=input("enter the gender:")
+      if gender=='m': and gender='M':
+            print("male")
+      else:
+            print("female")
+
+
+

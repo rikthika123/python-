@@ -1,0 +1,35 @@
+tuple=(10,20,30,40,50)
+
+#INDEXING
+print("first object:",tuple[0])
+print("second object:",tuple[1])
+print("fourth object:",tuple[4])
+
+
+#SLICING
+print("first 3 objects:",tuple[0:3:1])
+print("last 3 objects:",tuple[2:6:1])
+
+#UNPACKING
+a=(10)
+b=(20)
+c=(30)
+d=(40)
+tuple= a, b, c, d
+print(a,b,c,sep='-')
+
+#UNPACKING USING SLICING
+tuple=(10,20,30,40,50,60)
+m1,m2,m3=tuple[2:5:1]
+print(m1,m2,m3,sep='-')
+
+#WHILE
+tuple=(10,20,30,"abhi",40,"teju")
+print("tuple is:",tuple)
+
+index=0
+while index<len(tuple):
+    print(tuple[index])
+    index=index+1
+print("tuple is:",index,tuple)
+

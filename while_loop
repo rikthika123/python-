@@ -1,0 +1,34 @@
+# while loop 
+
+# even   
+i=2
+while i<=10:
+    print(i)
+    i+=2
+# odd
+i=40
+while i<=100:
+    print(i)
+    i+=3
+
+
+# SQUARE
+i=2
+while i<=10:
+    print(i,"square is",i*i)
+    i+=2
+
+#TABLES 
+i=1
+while i<=10:
+    print("2*", i,"=", 2*i)
+    i+=1
+
+#FACTORIAL
+n=int(input("enter the number:"))
+fact=1
+i=1
+while i<=n:
+    fact=fact*i
+    print(i,"!","=",fact)
+    i+=1

@@ -1,0 +1,16 @@
+#INDEX
+a=(0,20,30,10,50,60)
+pos=a.index(10)                              # here we can find particular position 
+print("found@:",pos)
+
+pos=a.index(20)
+print("found@:",pos)
+                                            
+'''pos=a.index(40)                               # value error
+print("found@:",pos)'''
+
+#COUNT
+a=(10,20,30,10,50)
+print("tuple is a:",a)
+no=a.count(10)                         # checking the lst how many times the number is there in the collection 
+print("found for:",no,"times")

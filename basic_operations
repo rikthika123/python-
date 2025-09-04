@@ -1,0 +1,35 @@
+# addition
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+c=a+b
+print("addition is:",c)
+
+#subtraction
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+c=a-b
+print("subtraction is:",c)
+
+#multiplication
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+c=a*b
+print("multiplication is:",c)
+
+#square
+s=int(input("enter the side"))
+print("area of square:",s*s)
+
+#cube
+area=int(input("enter the area of square:"))
+print("area of square is:",6*a*a)
+
+#(a+b)^2    #(a-b)^2   #(a+b)^3    #(a-b)^3  
+a=int(input("enter the a "))
+b=int(input("enter the b"))
+print("result is:",(a+b)(a+b))
+
+#area of circle   #square,triangle,rectangle,
+rad=int(input("enter the radius:"))
+ print("area is",3.14*rad*rad)
+
